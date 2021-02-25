@@ -140,13 +140,13 @@ body {
   padding-left: 28px;
 }
 
-.skill-css {
+ .skill-css {
   background-image: url("img/icon-css.svg");
   background-repeat: no-repeat;
   padding-left: 28px;
 }
 
-.level {
+.dark-theme .level {
   margin: 4px 0 16px;
   padding: 0;
   height: 14px;
@@ -156,7 +156,7 @@ body {
   border-radius: 8px;
 }
 
-.level div {
+.dark-theme .level div {
   margin: 1px;
   height: 12px;
   background-color: #fea18d;
