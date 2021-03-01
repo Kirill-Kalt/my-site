@@ -56,23 +56,29 @@ body {
   background-image: url("img/icon-phone.svg");
 }
 
-.theme-button {
+.dark-theme .theme-button {
+  position: absolute;
+  left: 5%;
+  color: #fea18d;
+  background-color: black;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 0.8em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 4px;
+  transition: 0.5s;
   font-size: 16px;
   text-align: right;
-  ;
-  color: #6653d9;
-  border: 2px solid #6653d9;
+  border: 2px solid  #fea18d;
   max-width: 928px;
   margin-top: auto;
-}
+  background: rgba(0, 0, 0, 0.541);
 
- .theme-button:focus,
- .theme-button:hover {
-   
-  color: #ffffff;
-  background-color: #6653d9;
-}
-
+} 
+.theme-button :hover  { background:black; }
+ .theme-button:active  { background: white; }
 
 .hero-image {
   margin-bottom: 480px;
@@ -196,7 +202,30 @@ body {
   background-color: #712073;
   color: #ffffff;
 }
-
+.loch{
+  text-align: center;
+  color:rgb(230, 0, 0);
+  background-color: rgb(179, 0, 0);
+}
+.likes{
+  text-align: center;
+  background-color: rgb(133, 0, 0);
+  color: #260c26;
+}
+.likesimg{
+  color:red;
+}
+.likes-number{
+  text-align:center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 32px;
+  color:white
+}
+.heart{
+  background-color: #5e060600;
+  border: 0ch;
+}
 .dark-theme  .page-footer {
   padding: 40px 0;
   background-color: #260c26;
@@ -246,7 +275,34 @@ background-image: url("img/2.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
+.light-theme .theme-button {
 
+  background: rgba(255, 255, 255, 0.575);
+  position: absolute;
+  left: 5%;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 0.8em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 4px;
+  transition: 0.5s;
+  font-size: 16px;
+  text-align: right;
+  color: #288be6;
+  border: 2px solid #288be6;
+  max-width: 928px;
+  margin-top: auto;
+
+} 
+
+
+
+
+a.button8:hover { background: rgba(255,255,255,.2); }
+a.button8:active { background: rgb(255, 255, 255); }
 .light-theme .container {
   max-width: 928px;
   margin: 0 auto;
@@ -299,6 +355,7 @@ background-image: url("img/2.jpg");
   font-weight: 400;
 }
 
+
 .hero-image p {
   margin: 0;
   font-size: 32px;
@@ -308,6 +365,7 @@ background-image: url("img/2.jpg");
 .intro {
   margin: 0 0 120px;
 }
+
 
 .subheading {
   margin: 0 0 56px;
@@ -323,6 +381,7 @@ background-image: url("img/2.jpg");
   text-align: center;
 }
 
+
 .intro h3,
 .portfolio h3 {
   margin: 0 0 12px;
@@ -334,6 +393,7 @@ background-image: url("img/2.jpg");
 .intro p {
   margin: 0 0 32px;
 }
+
 
 .skills-list {
   margin: 0;
