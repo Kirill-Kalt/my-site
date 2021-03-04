@@ -1,3 +1,4 @@
+
 let heart = document.querySelector('.heart');
 let likesNumber = document.querySelector('.likes-number');
 let counter = 0;
@@ -16,4 +17,5 @@ if (heart.classList.contains('added')){
 else{
     likesNumber.textContent++;
 }
-heart.classList.toggle('added');*/
+heart.classList.toggle('added');
+*/

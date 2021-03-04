@@ -153,20 +153,17 @@ body {
 }
 
 .dark-theme .level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  background-color: #080208;
-  border: 1px solid #712073;
-  border-radius: 8px;
-}
-
-.dark-theme .level div {
-  margin: 1px;
-  height: 12px;
-  background-color: #fea18d;
-  border-radius: 6px;
+  height: 20px;
+  font-size: 15;
+  text-align: center;
+  margin-left:3px ;
+  background-color: #992099;
+  border: 3px solid #250925;
+  border-radius: 23px;
+  width: 43px;
+  line-height: 120%;
+  color: white;
+  text-shadow: #fea18d 0 0 5px;
 }
 
 .portfolio {
@@ -247,6 +244,10 @@ body {
 .dark-theme  .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
+}
+.fire{
+  background: repeat-x;
+  background-image: url(/img/fire.gif)  ;
 }
 
 /*Светлая тема*/
@@ -412,24 +413,24 @@ a.button8:active { background: rgb(255, 255, 255); }
 
 .skill-css {
   background-image: url("img/icon-css.svg");
+  margin-top: 17px;
 }
 
 .level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
-  border-radius: 8px;
+  height: 20px;
+  font-size: 15;
+  margin-left:3px ;
+  text-align: center;
+  background-color: #93c8f7;
+  border: 3px solid #6ca3d3;
+  border-radius: 23px;
+  width: 43px;
+  line-height: 120%;
+  color: black;
+  text-shadow: white 0 0 5px;
 }
 
-.level div {
-  margin: 1px;
-  height: 12px;
-  background-color: #288be6;
-  border-radius: 6px;
-}
+
 
 .portfolio {
   margin: 0 0 120px;
@@ -487,4 +488,9 @@ a.button8:active { background: rgb(255, 255, 255); }
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+.hello{
+   background-color: rgb(223, 0, 0);
+    width: 20px;
+    border: 1px solid rgb(0, 0, 0);
 }
